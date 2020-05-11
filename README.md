@@ -8,7 +8,7 @@ TNGtags is divided into three sections:
 - ReadTutorial
 
 
-Step 1: Run the two files in GenerateIDFiles, this will create the ID Files for Illustris-1 and TNG-100 in two separate directories called 'Particles-Illustris-1' and 'Particles-TNG-100'.  Each will take approximately 2-3 hours to run. Can be run simultaneously, with both open in separate jupyter notebooks.
+Step 1: Run the two files in GenerateIDFiles, this will create the ID Files for Illustris-1 and TNG-100 in two separate directories called 'Particles-Illustris-1' and 'Particles-TNG-100'.  Each will take approximately 2-3 hours to run. A data file is generated for each snapshot. Each file is about 2-3 Gb, and the total data can be upto 200 to 350 Gb depending on the simulation.  Open both notebooks, and run them simultaneously to save time.
 
 Step 2: Look at MakeTags, which contains the essence of the code to make insitu, communter or accreted tags. This code can be modified as necessary. Note that at the present moment, the tags are generated on the fly, its takes less than a minute of a single MW-mass galaxy. At a later stage, once a certain algorithm is chosen, the tags as 'masks' to the 'particleIDs' can be saved.
 
